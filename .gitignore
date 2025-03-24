@@ -1,0 +1,33 @@
+# Unreal Engine Plugin .gitignore
+# This file ignores build artifacts, temporary files, and IDE files that are auto-generated
+# and should not be committed to version control.
+
+# Build and intermediate directories
+Binaries/
+Intermediate/
+DerivedDataCache/
+
+# Visual Studio / IDE generated files
+.vs/
+*.sln
+*.sdf
+*.suo
+*.vcxproj*
+*.vcxproj.filters
+*.xcodeproj/
+*.xcworkspace/
+
+# Auto-generated files by Unreal Build Tool
+*.generated.*
+*.log
+*.obj
+*.pdb
+*.exp
+
+# Other temporary or backup files
+*_Backup.*
+*_Temp.*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
