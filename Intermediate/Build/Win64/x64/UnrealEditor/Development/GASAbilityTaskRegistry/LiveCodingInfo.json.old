@@ -1,0 +1,21 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.GASAbilityTaskRegistry.cpp.obj": [
+			"AbilityTask_MoveInDirection.gen.cpp.obj",
+			"AbilityTask_MoveRandomly.gen.cpp.obj",
+			"AbilityTask_OnTickEvent.gen.cpp.obj",
+			"AbilityTask_SpawnSafeActor.gen.cpp.obj",
+			"GASAbilityTaskRegistry.init.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"AbilityTask_InputLock.cpp.obj",
+			"AbilityTask_InstantMoveToLocation.cpp.obj",
+			"AbilityTask_MoveRandomly.cpp.obj",
+			"AbilityTask_OnTickEvent.cpp.obj",
+			"AbilityTask_SpawnSafeActor.cpp.obj",
+			"AbilityTask_WaitEnhancedInputEvent.cpp.obj",
+			"GASAbilityTaskRegistry.cpp.obj",
+			"MyAbilityTask_MoveInDirection.cpp.obj"
+		]
+	}
+}

@@ -1,0 +1,85 @@
+/MANIFEST:EMBED
+/MANIFESTINPUT:"..\Build\Windows\Resources\Default-Win64.manifest"
+/NOLOGO
+/DEBUG:FULL
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/FIXED:No
+/NXCOMPAT
+/STACK:12000000
+/DELAY:UNLOAD
+/DLL
+/PDBALTPATH:%_PDB%
+/d2:-ExtendedWarningInfo
+/OPT:NOREF
+/OPT:NOICF
+/INCREMENTAL:NO
+/ignore:4199
+/ignore:4099
+/ALTERNATENAME:__imp___std_init_once_begin_initialize=__imp_InitOnceBeginInitialize
+/ALTERNATENAME:__imp___std_init_once_complete=__imp_InitOnceComplete
+/DELAYLOAD:"d3d12.dll"
+/DELAYLOAD:"DBGHELP.DLL"
+/LIBPATH:"C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\lib\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\ucrt\x64"
+/LIBPATH:"C:\Program Files (x86)\Windows Kits\10\lib\10.0.22621.0\um\x64"
+/NODEFAULTLIB:"LIBCMT"
+/NODEFAULTLIB:"LIBCPMT"
+/NODEFAULTLIB:"LIBCMTD"
+/NODEFAULTLIB:"LIBCPMTD"
+/NODEFAULTLIB:"MSVCRTD"
+/NODEFAULTLIB:"MSVCPRTD"
+/NODEFAULTLIB:"LIBC"
+/NODEFAULTLIB:"LIBCP"
+/NODEFAULTLIB:"LIBCD"
+/NODEFAULTLIB:"LIBCPD"
+/FUNCTIONPADMIN:6
+/NOIMPLIB
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Intermediate\Build\Win64\x64\MyNotesEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\Module.GASAbilityTaskRegistry.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_InputLock.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_InstantMoveToLocation.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_MoveRandomly.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_OnTickEvent.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_SpawnSafeActor.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\AbilityTask_WaitEnhancedInputEvent.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\GASAbilityTaskRegistry.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\MyAbilityTask_MoveInDirection.cpp.obj"
+"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Intermediate\Build\Win64\x64\UnrealEditor\Development\GASAbilityTaskRegistry\Default.rc2.res"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Engine\UnrealEditor-Engine.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Slate\UnrealEditor-Slate.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\SlateCore\UnrealEditor-SlateCore.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
+"..\Plugins\Runtime\GameplayAbilities\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayAbilities\UnrealEditor-GameplayAbilities.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTasks\UnrealEditor-GameplayTasks.lib"
+"..\Intermediate\Build\Win64\x64\UnrealEditor\Development\GameplayTags\UnrealEditor-GameplayTags.lib"
+"delayimp.lib"
+"wininet.lib"
+"rpcrt4.lib"
+"ws2_32.lib"
+"dbghelp.lib"
+"comctl32.lib"
+"Winmm.lib"
+"kernel32.lib"
+"user32.lib"
+"gdi32.lib"
+"winspool.lib"
+"comdlg32.lib"
+"advapi32.lib"
+"shell32.lib"
+"ole32.lib"
+"oleaut32.lib"
+"uuid.lib"
+"odbc32.lib"
+"odbccp32.lib"
+"netapi32.lib"
+"iphlpapi.lib"
+"setupapi.lib"
+"synchronization.lib"
+"dwmapi.lib"
+"imm32.lib"
+/OUT:"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Binaries\Win64\UnrealEditor-GASAbilityTaskRegistry.dll"
+/PDB:"C:\Users\AA\Documents\Unreal Projects\MyNotes\Plugins\GASAbilityTaskRegistry\Binaries\Win64\UnrealEditor-GASAbilityTaskRegistry.pdb"
+/ignore:4078

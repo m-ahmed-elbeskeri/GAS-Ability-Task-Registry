@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\aa\\documents\\unreal projects\\mynotes\\plugins\\gasabilitytaskregistry\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gasabilitytaskregistry\\module.gasabilitytaskregistry.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\aa\\documents\\unreal projects\\mynotes\\intermediate\\build\\win64\\x64\\mynoteseditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\aa\\documents\\unreal projects\\mynotes\\plugins\\gasabilitytaskregistry\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gasabilitytaskregistry\\definitions.gasabilitytaskregistry.h",
+            "c:\\users\\aa\\documents\\unreal projects\\mynotes\\plugins\\gasabilitytaskregistry\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gasabilitytaskregistry\\permoduleinline.gen.cpp",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
