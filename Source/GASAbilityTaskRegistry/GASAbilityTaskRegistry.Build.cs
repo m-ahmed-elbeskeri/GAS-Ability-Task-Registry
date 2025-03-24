@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright Games By Moshi 2025. All Rights Reserved.
 
 using UnrealBuildTool;
 

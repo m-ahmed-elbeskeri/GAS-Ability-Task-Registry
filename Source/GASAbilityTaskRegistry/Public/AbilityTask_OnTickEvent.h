@@ -1,4 +1,4 @@
-// Copyright 2021 Joseph "Narxim" Thigpen.
+// Copyright Games By Moshi 2025. All Rights Reserved.
 
 #pragma once
 

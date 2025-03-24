@@ -1,7 +1,6 @@
+// Copyright Games By Moshi 2025. All Rights Reserved.
+
 #include "AbilityTask_MoveInDirection.h"
-
-// MyAbilityTask_MoveInDirection.cpp
-
 #include "AbilityTask_MoveInDirection.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/CharacterMovementComponent.h"

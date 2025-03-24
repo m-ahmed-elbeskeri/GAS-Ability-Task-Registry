@@ -1,4 +1,4 @@
-// AbilityTask_MoveRandomly.cpp
+// Copyright Games By Moshi 2025. All Rights Reserved.
 
 #include "AbilityTask_MoveRandomly.h"
 #include "GameFramework/Character.h"

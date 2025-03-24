@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Copyright Games By Moshi 2025. All Rights Reserved.
 
 #include "AbilityTask_InstantMoveToLocation.h"
 #include "AbilitySystemComponent.h"
