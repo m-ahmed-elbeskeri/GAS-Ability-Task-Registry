@@ -4,7 +4,6 @@
 #include "AbilitySystemComponent.h"
 #include "Engine/World.h"
 #include "GameFramework/PlayerController.h"
-#include UE_INLINE_GENERATED_CPP_BY_NAME(AbilityTask_InputLock)
 
 UAbilityTask_InputLock::UAbilityTask_InputLock(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)

@@ -7,8 +7,6 @@
 #include "GameFramework/Actor.h"
 #include "Net/UnrealNetwork.h"
 
-#include UE_INLINE_GENERATED_CPP_BY_NAME(AbilityTask_InstantMoveToLocation)
-
 UAbilityTask_InstantMoveToLocation::UAbilityTask_InstantMoveToLocation(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {

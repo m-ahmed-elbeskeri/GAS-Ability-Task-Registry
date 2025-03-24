@@ -7,22 +7,7 @@ public class GASAbilityTaskRegistry : ModuleRules
 	public GASAbilityTaskRegistry(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-		
-		// Public includes (Expose to other modules/plugins/projects)
-		PublicIncludePaths.AddRange(
-			new string[] {
-				"GASAbilityTaskRegistry/Public"
-			}
-		);
-
-		// Private includes
-		PrivateIncludePaths.AddRange(
-			new string[] {
-				"GASAbilityTaskRegistry/Private"
-			}
-		);
-			
-		// Public dependencies (Core + Gameplay Ability modules)
+            
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -32,8 +17,7 @@ public class GASAbilityTaskRegistry : ModuleRules
 				"GameplayTags"
 			}
 		);
-		
-		// Private dependencies (UObject, Engine, UI, etc.)
+        
 		PrivateDependencyModuleNames.AddRange(
 			new string[]
 			{
@@ -44,7 +28,6 @@ public class GASAbilityTaskRegistry : ModuleRules
 			}
 		);
 
-		// Dynamic modules (if needed later)
 		DynamicallyLoadedModuleNames.AddRange(
 			new string[]
 			{

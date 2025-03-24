@@ -3,9 +3,9 @@
 	"Version": 1,
 	"VersionName": "1.0",
 	"FriendlyName": "GASAbilityTaskRegistry",
-	"Description": "",
-	"Category": "Other",
-	"CreatedBy": "",
+	"Description": "Collection of custom ability tasks for the Gameplay Ability System",
+	"Category": "Gameplay",
+	"CreatedBy": "Games By Moshi",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
@@ -14,6 +14,12 @@
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
 	"Installed": false,
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	],
 	"Modules": [
 		{
 			"Name": "GASAbilityTaskRegistry",
