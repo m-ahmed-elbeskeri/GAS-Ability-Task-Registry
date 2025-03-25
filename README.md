@@ -1,64 +1,86 @@
-GAS Ability Task Registry (Plugin)
-Welcome to the GAS Ability Task Registry – a community-driven Unreal Engine plugin designed to collect, organize, and share Gameplay Ability System (GAS) ability tasks. This is an open-source initiative to help Unreal developers avoid duplicating effort by creating a centralized, growing library of useful UGameplayTask-derived functionality.
+# GAS Ability Task Registry (Unreal Plugin)
 
-🚀 What is this?
-While working with GAS, I realized I was re-creating the same ability tasks across multiple projects. So I thought:
+Welcome to the **GAS Ability Task Registry** – a free, open-source Unreal Engine plugin containing a growing collection of `UGameplayTask`-based ability tasks for use with the Gameplay Ability System (GAS).
 
-“Why not start collecting and sharing them in one place?”
+This project is community-driven and open to contributions. The goal is to avoid duplicated effort by creating a centralized library of useful GAS tasks. Eventually, this will be released on the Unreal Marketplace (100% free).
 
-This repo is the result. It has now been packaged into a plugin and will eventually be released on the Unreal Marketplace (for free, of course) for everyone to use, contribute to, and benefit from.
+---
 
-📦 Plugin Structure
-This project is structured as a standard Unreal plugin.
+## 📆 What Is This?
 
-All tasks are created as modular UGameplayTask-based nodes intended for use in GAS-based Ability blueprints or C++ logic.
+Unreal GAS developers often find themselves recreating the same `AbilityTasks` across different projects. This plugin aims to:
 
-Current tasks are organized under:
+- 📚 Collect commonly used or useful custom `AbilityTasks`
+- 🔁 Reduce redundancy across GAS-based projects
+- 🔨 Provide a structured, plugin-ready format for easy integration
+- 🤝 Allow the community to share and contribute tasks
 
-/Source/GASAbilityTaskRegistry/
+---
 
-🧩 Why This Exists
-✅ Avoid duplicated effort – so many developers are creating the same tasks independently.
+## 🔧 Installation
 
-✅ Encourage sharing – if you've made something useful, push it in!
+1. Clone the repo into your project's `Plugins` folder:
+   ```bash
+   git clone https://github.com/m-ahmed-elbeskeri/GAS-Ability-Task-Registry.git
+   ```
+2. Regenerate project files.
+3. Build and enable the plugin from the Unreal Editor.
 
-✅ Clean packaging – I’ll clean up and organize everything before packaging.
+> ✅ Compatible with Unreal Engine 5.x  
+> 📁 Plugin root: `Plugins/GASAbilityTaskRegistry/`
 
-✅ Open collaboration – anyone is welcome to contribute, improve, or review.
+---
 
-🙌 Contributing
-Feel free to:
+## 💡 How to Contribute
 
-Submit your own custom ability tasks via PR
+Want to share a custom `AbilityTask` you’ve written? Awesome!
 
-Fork and build from this plugin
+- Fork the repo
+- Add your task to the `Source/GASAbilityTaskRegistry/` directory
+- Submit a Pull Request
+- I’ll review and clean things up as needed for consistency
 
-Report bugs, suggest improvements, or document use cases
+**No need to polish it yourself — just submit what you’ve got!**
 
-I'll regularly clean and refactor the contributions for final packaging in the Marketplace version.
+---
 
-🛠️ Installation
-Clone the repo into your project's Plugins directory:
+## 📋 Current Tasks (WIP)
 
-git clone https://github.com/m-ahmed-elbeskeri/GAS-Ability-Task-Registry.git
+- [x] `AbilityTask_PlayMontageAndWaitForEvent`
+- [x] `AbilityTask_MoveToTarget`
+- [ ] More coming soon...
 
-Regenerate project files
+---
 
-Build and enable the plugin in Unreal Engine
+## 📘 License
 
-Note: Currently tested on Unreal Engine 5 - 5.5 
+This project is licensed under the **MIT License**.
 
-🧪 Current Tasks (WIP)
-Task list is growing. Stay tuned or contribute yours!
+```txt
+MIT License
 
- AbilityTask_PlayMontageAndWaitForEvent
+Copyright (c) 2024 m-ahmed-elbeskeri
 
- AbilityTask_MoveToTarget
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
- More coming soon...
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-💡 Want to Help?
-Contributions are more than welcome — if you've made a task you think others would benefit from, just open a pull request. Don’t worry about making it perfect — I’ll handle cleanup and integration.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
-📄 License
-MIT License – Free to use, modify, and share.
+---
+
+Let's build a shared GAS toolkit together! 🚀
+
