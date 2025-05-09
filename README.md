@@ -1,5 +1,9 @@
 # GAS Ability Task Registry (Unreal Plugin)
 
+<p align="left">
+  <a href="https://buymeacoffee.com/m.ahmed.elbesk?new=1"><img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-yellow?style=flat-square" alt="Buy Me a Coffee"></a>
+</p>
+
 Welcome to the **GAS Ability Task Registry** – a free, open-source Unreal Engine plugin containing a growing collection of `UGameplayTask`-based ability tasks for use with the Gameplay Ability System (GAS).
 
 This project is community-driven and open to contributions. The goal is to avoid duplicated effort by creating a centralized library of useful GAS tasks. Eventually, this will be released on the Unreal Marketplace (100% free).
