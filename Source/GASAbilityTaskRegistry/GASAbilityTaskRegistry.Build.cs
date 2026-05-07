@@ -14,7 +14,8 @@ public class GASAbilityTaskRegistry : ModuleRules
 				"Core",
 				"GameplayAbilities",
 				"GameplayTasks",
-				"GameplayTags"
+				"GameplayTags",
+				"EnhancedInput",
 			}
 		);
         
